@@ -1,0 +1,8 @@
+{
+  "name": "LVS_Launcher",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/EarthlyEric/LVS_Launcher",
+  "author": "EarthlyEric6",
+  "license": "MIT"
+}
