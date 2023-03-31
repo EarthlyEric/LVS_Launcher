@@ -1,5 +1,5 @@
 {
-  "name": "LVS_Launcher",
+  "name": "lvs_launcher",
   "version": "1.0.0",
   "main": "app.js",
   "repository": "https://github.com/EarthlyEric/LVS_Launcher",
