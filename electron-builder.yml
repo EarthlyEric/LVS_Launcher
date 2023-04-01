@@ -1,6 +1,6 @@
 appId: dev.lunarvalley.launcher
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+productName: LVS Launcher
+copyright: Copyright © 2023 LunarValley Studio
 directories:
   output: dist
   buildResources: resources
