@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "lvs_launcher",
+  "name": "lvslauncher",
   "description": "A launcher for downloading LunarValley Games.",
   "version": "1.0.0",
   "author": "EarthlyEric6",
@@ -8,9 +8,18 @@
   "scripts": {
     "dev": "nextron",
     "build": "nextron build",
+    "build:all": "nextron build --all",
+    "build:win32": "nextron build --win --ia32",
+    "build:win64": "nextron build --win --x64",
+    "build:mac": "nextron build --mac --x64",
+    "build:linux": "nextron build --linux",
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "electron-serve": "^1.1.0",
     "electron-store": "^8.1.0"
   },
