@@ -1,4 +1,5 @@
 import { app,ipcMain } from 'electron';
+import { useState } from 'react';
 import serve from 'electron-serve';
 import { createWindow } from './helpers';
 
@@ -30,9 +31,11 @@ if (isProd) {
 app.on('window-all-closed', () => {
   app.quit();
 });
+ipcMain.on('windowsStates',() => {
 
-ipcMain.on('exit', (event, arg) => {
-  app.quit();
 })
+
+
+
 
 

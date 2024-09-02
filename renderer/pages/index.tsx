@@ -7,7 +7,7 @@ function Index() {
   return (
     <React.Fragment>
       <Head>
-        <title>LVS Launcher</title>
+        <title>Destiny Soul Launcher</title>
       </Head>
       <TitleBar></TitleBar>
       <div className='grid grid-col-1 text-2xl w-full text-center'>
